@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "short_shortcuts_api",
+	"version": "0.25",
+	"name": "Short Shortcuts API",
+	"description": "An API library that can ease the workflow of coding, and variables that'll act like shortcuts.",
+	"authors": [
+		"Captain Corgi"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/loophole_api/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.bytemouse.short_shortcuts_api.ShortShortcutsAPI"
+		],
+		"client": [
+			"net.bytemouse.short_shortcuts_api.ShortShortcutsAPIClient"
+		],
+		"fabric-datagen": [
+			"net.bytemouse.short_shortcuts_api.ShortShortcutsAPIDataGenerator"
+		]
+	},
+	"mixins": [
+		"short_shortcuts_api.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.12",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
