@@ -31,6 +31,8 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:0.92.3+1.20.1"
 
+	implementation 'com.squareup:javapoet:1.13.0'
+
 
 	
 }
@@ -71,6 +73,14 @@ publishing {
 		create("mavenJava", MavenPublication) {
 			artifactId = project.archives_base_name
 			from components.java
+		}
+	}
+
+	sourceSets {
+		main {
+			java {
+				srcDirs += 'build/generated/sources/java'
+			}
 		}
 	}
 

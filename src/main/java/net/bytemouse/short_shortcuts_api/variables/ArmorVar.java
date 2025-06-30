@@ -6,5 +6,5 @@ import java.util.function.Consumer;
 
 public class ArmorVar {
 
-    public static Consumer<ArmorItem> ArmorVari;
+    public static Consumer<ArmorItem> AV;
 }
