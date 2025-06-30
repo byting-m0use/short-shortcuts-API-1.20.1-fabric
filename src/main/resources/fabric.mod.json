@@ -1,32 +1,32 @@
 {
 	"schemaVersion": 1,
-	"id": "short_shortcuts_api",
+	"id": "short_shortcuts",
 	"version": "0.25",
-	"name": "Short Shortcuts API",
-	"description": "An API library that can ease the workflow of coding, and variables that'll act like shortcuts.",
+	"name": "Short Shortcuts ",
+	"description": "A library that can ease the workflow of coding, and variables that'll act like shortcuts.",
 	"authors": [
-		"Captain Corgi"
+		"ByteM0use"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/loophole_api/icon.png",
+	"icon": "assets/short_shortcuts/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "net.bytemouse.short_shortcuts_api.ShortShortcutsAPI"
+          "net.bytemouse.short_shortcuts_library.ShortShortcuts"
 		],
 		"client": [
-			"net.bytemouse.short_shortcuts_api.ShortShortcutsAPIClient"
+			"net.bytemouse.short_shortcuts_library.ShortShortcutsClient"
 		],
 		"fabric-datagen": [
-			"net.bytemouse.short_shortcuts_api.ShortShortcutsAPIDataGenerator"
+			"net.bytemouse.short_shortcuts_library.ShortShortcutsDataGenerator"
 		]
 	},
 	"mixins": [
-		"short_shortcuts_api.mixins.json"
+		"short_shortcuts.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.12",

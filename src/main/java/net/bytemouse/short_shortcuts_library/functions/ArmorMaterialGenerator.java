@@ -1,4 +1,4 @@
-package net.bytemouse.short_shortcuts_api.functions;
+package net.bytemouse.short_shortcuts_library.functions;
 
 
 import com.squareup.javapoet.*;

@@ -1,11 +1,11 @@
-package net.bytemouse.short_shortcuts_api;
+package net.bytemouse.short_shortcuts_library;
 
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ShortShortcutsAPI implements ModInitializer {
+public class ShortShortcuts implements ModInitializer {
 	public static final String MOD_ID = "short_shortcuts_api";
 
 	// This logger is used to write text to the console and the log file.

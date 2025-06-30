@@ -1,4 +1,4 @@
-package net.bytemouse.short_shortcuts_api.variables;
+package net.bytemouse.short_shortcuts_library.variables;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;

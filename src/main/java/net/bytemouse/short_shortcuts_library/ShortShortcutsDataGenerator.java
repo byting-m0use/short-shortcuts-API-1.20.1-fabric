@@ -1,6 +1,6 @@
-package net.bytemouse.short_shortcuts_api;
+package net.bytemouse.short_shortcuts_library;
 
-import net.bytemouse.short_shortcuts_api.functions.ArmorMaterialGenerator;
+import net.bytemouse.short_shortcuts_library.functions.ArmorMaterialGenerator;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.nio.file.Path;
 
 
-public class ShortShortcutsAPIDataGenerator implements DataGeneratorEntrypoint {
+public class ShortShortcutsDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 

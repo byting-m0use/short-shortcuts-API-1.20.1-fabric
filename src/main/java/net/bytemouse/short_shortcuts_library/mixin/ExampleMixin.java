@@ -1,4 +1,4 @@
-package net.bytemouse.short_shortcuts_api.mixin;
+package net.bytemouse.short_shortcuts_library.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
